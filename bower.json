@@ -1,0 +1,15 @@
+{
+  "name": "django-nunchucks-example",
+  "authors": [
+    "Constantine Fedenko <cfedenko@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "WTFPL",
+  "homepage": "",
+  "dependencies": {
+    "nunjucks": "^2.5.2",
+    "semantic": "semantic-ui#^2.2.4",
+    "jquery-serialize-object": "^2.5.0"
+  }
+}

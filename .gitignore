@@ -1,0 +1,8 @@
+*.pyc
+*.pyo
+*.sqlite3
+*.mo
+/node_modules/
+/app/static/libs/
+/app/static/jsi18n/
+/app/static/templates/
