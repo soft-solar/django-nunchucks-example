@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-21 10:02+0000\n"
+"POT-Creation-Date: 2016-10-30 15:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,10 @@ msgstr "Нотатка"
 msgid "Notes"
 msgstr "Нотатки"
 
+#: app/templates/app/note_detail.html:5
+msgid "Remove"
+msgstr "Видалити"
+
 #: app/templates/app/note_list.html:36
 msgid "Language"
 msgstr "Мова"
@@ -43,10 +47,10 @@ msgstr "Опис"
 msgid "Add"
 msgstr "Додати"
 
-#: project/settings.py:114
+#: project/settings.py:115
 msgid "Ukrainian"
 msgstr "Українська"
 
-#: project/settings.py:115
+#: project/settings.py:116
 msgid "English"
 msgstr "Англійська"

@@ -65,7 +65,7 @@
   <script type="text/javascript" src="{% static "libs/jquery-serialize-object/dist/jquery.serialize-object.min.js" %}"></script>
   <script type="text/javascript" src="{% static "libs/semantic/dist/semantic.min.js" %}"></script>
   <script type="text/javascript" src="{% static "libs/nunjucks/browser/nunjucks-slim.min.js" %}"></script>
-  <script type="text/javascript" src="{% static "templates/note_detail.js" %}"></script>
+  <script type="text/javascript" src="{% get_static_prefix %}jsi18n/{{LANGUAGE_CODE}}/templates/note_detail.js"></script>
   <script type="text/javascript"src="{% statici18n LANGUAGE_CODE %}"></script>
   <script type="text/javascript">
     $(function(){

@@ -1,7 +1,8 @@
+{% load i18n static %}
 <div class="ui clearing segment note" data-id="{{object.id}}">
   <div class="ui right floated icon buttons">
     <button class="ui button remove" data-id="{{object.id}}">
-      <i class="trash icon"></i>
+      <i class="trash icon"></i>{% trans "Remove" %}
     </button>
   </div>
   <p>{{object.text}}</p>
